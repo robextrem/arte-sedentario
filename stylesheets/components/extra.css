@@ -1,0 +1,31 @@
+/* line 1, ../../sass/components/extra.scss */
+.bg-image-1 {
+  background-image: url("../img/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 7, ../../sass/components/extra.scss */
+.h-35em {
+  height: 35em;
+}
+
+/* line 11, ../../sass/components/extra.scss */
+.margin-top-2 {
+  margin-top: 2.5em;
+}
+
+/* line 14, ../../sass/components/extra.scss */
+.text-vertical {
+  writing-mode: vertical-lr;
+}
+
+/* line 17, ../../sass/components/extra.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 21, ../../sass/components/extra.scss */
+nav {
+  box-shadow: none;
+}
