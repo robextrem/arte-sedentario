@@ -5,42 +5,67 @@
   background-size: cover;
 }
 
-/* line 7, ../../sass/components/extra.scss */
+/* line 6, ../../sass/components/extra.scss */
+.inherit {
+  display: inherit;
+}
+
+/* line 8, ../../sass/components/extra.scss */
 .h-35em {
   height: 35em;
 }
 
-/* line 10, ../../sass/components/extra.scss */
+/* line 9, ../../sass/components/extra.scss */
 .h-25em {
   height: 25em;
 }
 
-/* line 13, ../../sass/components/extra.scss */
+/* line 11, ../../sass/components/extra.scss */
 .f-2em {
   font-size: 2em;
 }
 
-/* line 16, ../../sass/components/extra.scss */
+/* line 12, ../../sass/components/extra.scss */
+.f-5 {
+  font-size: .5em;
+}
+
+/* line 14, ../../sass/components/extra.scss */
 .margin-top-2 {
   margin-top: 2.5em;
 }
 
-/* line 19, ../../sass/components/extra.scss */
+/* line 15, ../../sass/components/extra.scss */
+.margin-right-20px {
+  margin-right: 20px;
+}
+
+/* line 16, ../../sass/components/extra.scss */
+.margin-40px-0 {
+  margin: 40px 0;
+}
+
+/* line 18, ../../sass/components/extra.scss */
 .text-vertical {
   writing-mode: vertical-lr;
 }
 
-/* line 22, ../../sass/components/extra.scss */
+/* line 19, ../../sass/components/extra.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 25, ../../sass/components/extra.scss */
+/* line 20, ../../sass/components/extra.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 29, ../../sass/components/extra.scss */
+/* line 21, ../../sass/components/extra.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 23, ../../sass/components/extra.scss */
 nav {
   box-shadow: none;
 }

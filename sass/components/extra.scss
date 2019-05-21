@@ -3,29 +3,21 @@
 	background-repeat: no-repeat;
 	background-size: cover;	
 }
+.inherit{display: inherit;}
 
-.h-35em{
-	height: 35em;
-}
-.h-25em{
-	height: 25em;
-}
-.f-2em{
-	font-size: 2em;
-}
-.margin-top-2{
-	margin-top: 2.5em;
-}
-.text-vertical{
-	writing-mode: vertical-lr;
-}
-.uppercase{
-	text-transform: uppercase;
-}
-.bold{
-	font-weight: 700;
-}
+.h-35em{height: 35em;}
+.h-25em{height: 25em;}
 
-nav{
-	box-shadow: none;
-}
+.f-2em{font-size: 2em;}
+.f-5{font-size: .5em;}
+
+.margin-top-2{margin-top: 2.5em;}
+.margin-right-20px{margin-right: 20px;}
+.margin-40px-0{margin:40px 0;}
+
+.text-vertical{writing-mode: vertical-lr;}
+.uppercase{text-transform: uppercase;}
+.bold{font-weight: 700;}
+.italic{font-style: italic;}
+
+nav{box-shadow: none;}
