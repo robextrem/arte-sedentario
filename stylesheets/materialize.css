@@ -9645,22 +9645,37 @@ input[type=range]::-ms-thumb {
   height: 35em;
 }
 
-/* line 11, ../sass/components/extra.scss */
+/* line 10, ../sass/components/extra.scss */
+.h-25em {
+  height: 25em;
+}
+
+/* line 13, ../sass/components/extra.scss */
+.f-2em {
+  font-size: 2em;
+}
+
+/* line 16, ../sass/components/extra.scss */
 .margin-top-2 {
   margin-top: 2.5em;
 }
 
-/* line 14, ../sass/components/extra.scss */
+/* line 19, ../sass/components/extra.scss */
 .text-vertical {
   writing-mode: vertical-lr;
 }
 
-/* line 17, ../sass/components/extra.scss */
+/* line 22, ../sass/components/extra.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 21, ../sass/components/extra.scss */
+/* line 25, ../sass/components/extra.scss */
+.bold {
+  font-weight: 700;
+}
+
+/* line 29, ../sass/components/extra.scss */
 nav {
   box-shadow: none;
 }
