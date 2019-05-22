@@ -22,8 +22,10 @@
 .margin-top-2{margin-top: 2.5em;}
 .margin-right-20px{margin-right: 20px;}
 .margin-40px-0{margin:40px 0;}
+.margin-0{margin:0px;}
 
 .padding-0{padding:0px!important;}
+.padding-top-bottom-3em{padding: 3em 0!important;}
 
 .text-vertical{writing-mode: vertical-lr;}
 .uppercase{text-transform: uppercase;}
@@ -62,7 +64,7 @@ nav{box-shadow: none;}
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
- 	filter: grayscale(100%);
+	filter: grayscale(100%);
  	height:300px;
 }
 
