@@ -19,7 +19,7 @@
 
 
   .card-title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     &.activator {
       cursor: pointer;
@@ -135,6 +135,14 @@
       left: 0;
       max-width: 100%;
       padding: $card-padding;
+    }
+    .card-title-1 {
+      color: $card-bg-color;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      max-width: 100%;
+      padding: 0px 24px;
     }
   }
 
