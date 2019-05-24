@@ -6,7 +6,7 @@
   display: inline-block;
   height: $button-height;
   line-height: $button-height;
-  padding: $button-padding;
+  padding: 0 29px;
   text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; // Gets rid of tap active state
@@ -64,15 +64,15 @@
 // Raised Button
 .btn {
   text-decoration: none;
-  color: $button-raised-color;
-  background-color: $button-raised-background;
+  color: #232323;
+  background-color: #fff;
   text-align: center;
   letter-spacing: .5px;
   @extend .z-depth-1;
   transition: background-color .2s ease-out;
   cursor: pointer;
   &:hover {
-    background-color: $button-raised-background-hover;
+    background-color: #CAAE76;
     @extend .z-depth-1-half;
   }
 }
