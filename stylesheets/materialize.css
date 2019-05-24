@@ -9659,119 +9659,126 @@ input[type=range]::-ms-thumb {
   background-size: cover;
 }
 
-/* line 6, ../sass/components/extra.scss */
+/* line 7, ../sass/components/extra.scss */
+.bg-image-2 {
+  background-image: url("../img/madera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 13, ../sass/components/extra.scss */
 .inherit {
   display: inherit;
 }
 
-/* line 7, ../sass/components/extra.scss */
+/* line 14, ../sass/components/extra.scss */
 .relative {
   position: relative;
 }
 
-/* line 9, ../sass/components/extra.scss */
+/* line 16, ../sass/components/extra.scss */
 .width-100 {
   width: 100%;
 }
 
-/* line 10, ../sass/components/extra.scss */
+/* line 17, ../sass/components/extra.scss */
 .grayscale {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
-/* line 14, ../sass/components/extra.scss */
+/* line 21, ../sass/components/extra.scss */
 .h-35em {
   height: 35em;
 }
 
-/* line 15, ../sass/components/extra.scss */
+/* line 22, ../sass/components/extra.scss */
 .h-25em {
   height: 25em;
 }
 
-/* line 17, ../sass/components/extra.scss */
+/* line 24, ../sass/components/extra.scss */
 .f-2em {
   font-size: 2em;
 }
 
-/* line 18, ../sass/components/extra.scss */
+/* line 25, ../sass/components/extra.scss */
 .f-5 {
   font-size: .5em;
 }
 
-/* line 19, ../sass/components/extra.scss */
+/* line 26, ../sass/components/extra.scss */
 .f-8em {
   font-size: 8em;
 }
 
-/* line 20, ../sass/components/extra.scss */
+/* line 27, ../sass/components/extra.scss */
 .f-10em {
   font-size: 10em;
 }
 
-/* line 22, ../sass/components/extra.scss */
+/* line 29, ../sass/components/extra.scss */
 .margin-top-2 {
   margin-top: 2.5em;
 }
 
-/* line 23, ../sass/components/extra.scss */
+/* line 30, ../sass/components/extra.scss */
 .margin-right-20px {
   margin-right: 20px;
 }
 
-/* line 24, ../sass/components/extra.scss */
+/* line 31, ../sass/components/extra.scss */
 .margin-40px-0 {
   margin: 40px 0;
 }
 
-/* line 25, ../sass/components/extra.scss */
+/* line 32, ../sass/components/extra.scss */
 .margin-0 {
   margin: 0px;
 }
 
-/* line 27, ../sass/components/extra.scss */
+/* line 34, ../sass/components/extra.scss */
 .padding-0 {
   padding: 0px !important;
 }
 
-/* line 28, ../sass/components/extra.scss */
+/* line 35, ../sass/components/extra.scss */
 .padding-top-bottom-3em {
   padding: 3em 0 !important;
 }
 
-/* line 30, ../sass/components/extra.scss */
+/* line 37, ../sass/components/extra.scss */
 .text-vertical {
   writing-mode: vertical-lr;
 }
 
-/* line 31, ../sass/components/extra.scss */
+/* line 38, ../sass/components/extra.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 32, ../sass/components/extra.scss */
+/* line 39, ../sass/components/extra.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 33, ../sass/components/extra.scss */
+/* line 40, ../sass/components/extra.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 34, ../sass/components/extra.scss */
+/* line 41, ../sass/components/extra.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 36, ../sass/components/extra.scss */
+/* line 43, ../sass/components/extra.scss */
 nav {
   box-shadow: none;
 }
 
-/* line 38, ../sass/components/extra.scss */
+/* line 45, ../sass/components/extra.scss */
 .bg-project-1 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9782,7 +9789,7 @@ nav {
   height: 300px;
 }
 
-/* line 46, ../sass/components/extra.scss */
+/* line 53, ../sass/components/extra.scss */
 .bg-project-2 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9793,7 +9800,7 @@ nav {
   height: 300px;
 }
 
-/* line 54, ../sass/components/extra.scss */
+/* line 61, ../sass/components/extra.scss */
 .bg-project-3 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9804,7 +9811,7 @@ nav {
   height: 300px;
 }
 
-/* line 62, ../sass/components/extra.scss */
+/* line 69, ../sass/components/extra.scss */
 .bg-project-4 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9815,7 +9822,7 @@ nav {
   height: 300px;
 }
 
-/* line 71, ../sass/components/extra.scss */
+/* line 78, ../sass/components/extra.scss */
 .hr-1 {
   border-top: 2px solid #9e9d24;
   margin: 15px 24px;
