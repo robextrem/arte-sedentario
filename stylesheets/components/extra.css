@@ -3,9 +3,9 @@
   background-image: url("../img/tree.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: sepia(100%) brightness(61%) hue-rotate(127deg) saturate(106%) contrast(155%);
-  -webkit-filter: sepia(100%) brightness(61%) hue-rotate(127deg) saturate(106%) contrast(155%);
-  -moz-filter: sepia(100%) brightness(61%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 }
 
 /* line 11, ../../sass/components/extra.scss */
