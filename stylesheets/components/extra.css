@@ -248,3 +248,14 @@ nav {
   left: 0;
   right: 0;
 }
+
+/* line 116, ../../sass/components/extra.scss */
+.absolute-top-3 {
+  top: 3%;
+  position: absolute;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
