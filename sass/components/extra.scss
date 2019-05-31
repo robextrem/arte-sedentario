@@ -15,8 +15,38 @@ filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(1
 }
 
 .inherit{display: inherit;}
+.none{display: none;}
 .relative{position: relative;}
+.absolute{position: absolute;}
 
+.absolute-top-3{
+	top: 3%;
+	position: absolute;
+	right: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.absolute-top-30{
+	top: 30%;
+	position: absolute;
+	right: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.absolute-top-70vh{
+	top: 70vh;
+	position: absolute;
+	right: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
 .width-100{width: 100%;}
 .height-100{height: 100px!important;}
 .height-100vh{height: 100vh;}
@@ -125,31 +155,15 @@ nav{box-shadow: none;}
 	right: 0;
 }
 
-.absolute-top-3{
-	top: 3%;
-	position: absolute;
-	right: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-}
+/*efecto texto*/
 
-.absolute-top-30{
-	top: 30%;
-	position: absolute;
-	right: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+.text{
+	font-weight:100;
+  font-size:28px;
+  color:#FAFAFA;
 }
-.absolute-top-70vh{
-	top: 70vh;
-	position: absolute;
-	right: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+  
+.dud{
+
+  color: #757575;
 }

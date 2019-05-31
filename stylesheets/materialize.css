@@ -1469,6 +1469,16 @@
 }
 
 /* line 14, ../sass/components/_color-classes.scss */
+.green.darken-6 {
+  background-color: #002326 !important;
+}
+
+/* line 17, ../sass/components/_color-classes.scss */
+.green-text.text-darken-6 {
+  color: #002326 !important;
+}
+
+/* line 14, ../sass/components/_color-classes.scss */
 .green.accent-1 {
   background-color: #B9F6CA !important;
 }
@@ -9130,6 +9140,96 @@ input[type=range]::-ms-thumb {
   pointer-events: none;
 }
 
+/* line 91, ../sass/components/_carousel.scss */
+.carousel-1 {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  perspective: 500px;
+  transform-style: preserve-3d;
+  transform-origin: 0% 50%;
+}
+/* line 92, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider {
+  top: 0;
+  left: 0;
+}
+/* line 96, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider .carousel-fixed-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 1;
+}
+/* line 97, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider .carousel-fixed-item.with-indicators {
+  bottom: 68px;
+}
+/* line 108, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider .carousel-item {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 116, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider .carousel-item h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+/* line 122, ../sass/components/_carousel.scss */
+.carousel-1.carousel-slider .carousel-item p {
+  font-size: 15px;
+}
+/* line 136, ../sass/components/_carousel.scss */
+.carousel-1 .carousel-item {
+  visibility: hidden;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 144, ../sass/components/_carousel.scss */
+.carousel-1 .carousel-item > img {
+  width: 100%;
+}
+/* line 149, ../sass/components/_carousel.scss */
+.carousel-1 .indicators {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+/* line 157, ../sass/components/_carousel.scss */
+.carousel-1 .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 24px 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color .3s;
+  border-radius: 50%;
+}
+/* line 158, ../sass/components/_carousel.scss */
+.carousel-1 .indicators .indicator-item.active {
+  background-color: #fff;
+}
+/* line 176, ../sass/components/_carousel.scss */
+.carousel-1.scrolling .carousel-item .materialboxed,
+.carousel-1 .carousel-item:not(.active) .materialboxed {
+  pointer-events: none;
+}
+
 /* line 1, ../sass/components/_tapTarget.scss */
 .tap-target-wrapper {
   width: 800px;
@@ -9705,214 +9805,257 @@ input[type=range]::-ms-thumb {
 }
 
 /* line 18, ../sass/components/extra.scss */
+.none {
+  display: none;
+}
+
+/* line 19, ../sass/components/extra.scss */
 .relative {
   position: relative;
 }
 
 /* line 20, ../sass/components/extra.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 22, ../sass/components/extra.scss */
+.absolute-top-3 {
+  top: 3%;
+  position: absolute;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* line 32, ../sass/components/extra.scss */
+.absolute-top-30 {
+  top: 30%;
+  position: absolute;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* line 41, ../sass/components/extra.scss */
+.absolute-top-70vh {
+  top: 70vh;
+  position: absolute;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* line 50, ../sass/components/extra.scss */
 .width-100 {
   width: 100%;
 }
 
-/* line 21, ../sass/components/extra.scss */
+/* line 51, ../sass/components/extra.scss */
 .height-100 {
   height: 100px !important;
 }
 
-/* line 22, ../sass/components/extra.scss */
+/* line 52, ../sass/components/extra.scss */
 .height-100vh {
   height: 100vh;
 }
 
-/* line 23, ../sass/components/extra.scss */
+/* line 53, ../sass/components/extra.scss */
 .height-50vh {
   height: 50vh;
 }
 
-/* line 25, ../sass/components/extra.scss */
+/* line 55, ../sass/components/extra.scss */
 .grayscale {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
-/* line 29, ../sass/components/extra.scss */
+/* line 59, ../sass/components/extra.scss */
 .h-35em {
   height: 35em;
 }
 
-/* line 30, ../sass/components/extra.scss */
+/* line 60, ../sass/components/extra.scss */
 .h-25em {
   height: 25em;
 }
 
-/* line 33, ../sass/components/extra.scss */
+/* line 63, ../sass/components/extra.scss */
 .f1em {
   font-size: 1em;
 }
 
-/* line 34, ../sass/components/extra.scss */
+/* line 64, ../sass/components/extra.scss */
 .f1-2 {
   font-size: 1.2em;
 }
 
-/* line 35, ../sass/components/extra.scss */
+/* line 65, ../sass/components/extra.scss */
 .f-2em {
   font-size: 2em;
 }
 
-/* line 36, ../sass/components/extra.scss */
+/* line 66, ../sass/components/extra.scss */
 .f-5 {
   font-size: .5em;
 }
 
-/* line 37, ../sass/components/extra.scss */
+/* line 67, ../sass/components/extra.scss */
 .f-6em {
   font-size: .6em;
 }
 
-/* line 38, ../sass/components/extra.scss */
+/* line 68, ../sass/components/extra.scss */
 .f-8em {
   font-size: 8em;
 }
 
-/* line 39, ../sass/components/extra.scss */
+/* line 69, ../sass/components/extra.scss */
 .f-9em {
   font-size: .9em;
 }
 
-/* line 40, ../sass/components/extra.scss */
+/* line 70, ../sass/components/extra.scss */
 .f-10em {
   font-size: 10em;
 }
 
-/* line 43, ../sass/components/extra.scss */
+/* line 73, ../sass/components/extra.scss */
 .margin-top-2 {
   margin-top: 2.5em;
 }
 
-/* line 44, ../sass/components/extra.scss */
+/* line 74, ../sass/components/extra.scss */
 .margin-top-3 {
   margin-top: 3em;
 }
 
-/* line 45, ../sass/components/extra.scss */
+/* line 75, ../sass/components/extra.scss */
 .margin-bottom-7 {
   margin-bottom: 7em;
 }
 
-/* line 46, ../sass/components/extra.scss */
+/* line 76, ../sass/components/extra.scss */
 .margin-bottom-3 {
   margin-bottom: 3em;
 }
 
-/* line 47, ../sass/components/extra.scss */
+/* line 77, ../sass/components/extra.scss */
 .margin-right-20px {
   margin-right: 20px;
 }
 
-/* line 48, ../sass/components/extra.scss */
+/* line 78, ../sass/components/extra.scss */
 .margin-40px-0 {
   margin: 40px 0;
 }
 
-/* line 49, ../sass/components/extra.scss */
+/* line 79, ../sass/components/extra.scss */
 .margin-0-4em {
   margin: 0 4em;
 }
 
-/* line 50, ../sass/components/extra.scss */
+/* line 80, ../sass/components/extra.scss */
 .margin-0 {
   margin: 0px;
 }
 
-/* line 52, ../sass/components/extra.scss */
+/* line 82, ../sass/components/extra.scss */
 .padding-top-3 {
   padding-top: 3em;
 }
 
-/* line 53, ../sass/components/extra.scss */
+/* line 83, ../sass/components/extra.scss */
 .padding-bottom-4 {
   padding-bottom: 4em;
 }
 
-/* line 55, ../sass/components/extra.scss */
+/* line 85, ../sass/components/extra.scss */
 .padding-0 {
   padding: 0px !important;
 }
 
-/* line 56, ../sass/components/extra.scss */
+/* line 86, ../sass/components/extra.scss */
 .padding-top-bottom-3em {
   padding: 3em 0 !important;
 }
 
-/* line 57, ../sass/components/extra.scss */
+/* line 87, ../sass/components/extra.scss */
 .padding-top-7em {
   padding-top: 7em;
 }
 
-/* line 58, ../sass/components/extra.scss */
+/* line 88, ../sass/components/extra.scss */
 .padding-top-9em {
   padding-top: 9em;
 }
 
-/* line 59, ../sass/components/extra.scss */
+/* line 89, ../sass/components/extra.scss */
 .padding-left-20 {
   padding-left: 20px;
 }
 
-/* line 60, ../sass/components/extra.scss */
+/* line 90, ../sass/components/extra.scss */
 .padding-left-40 {
   padding-left: 40px !important;
 }
 
-/* line 61, ../sass/components/extra.scss */
+/* line 91, ../sass/components/extra.scss */
 .padding-left-30 {
   padding-left: 30px !important;
 }
 
-/* line 64, ../sass/components/extra.scss */
+/* line 94, ../sass/components/extra.scss */
 .text-vertical {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
 }
 
-/* line 68, ../sass/components/extra.scss */
+/* line 98, ../sass/components/extra.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 69, ../sass/components/extra.scss */
+/* line 99, ../sass/components/extra.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 70, ../sass/components/extra.scss */
+/* line 100, ../sass/components/extra.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 71, ../sass/components/extra.scss */
+/* line 101, ../sass/components/extra.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 72, ../sass/components/extra.scss */
+/* line 102, ../sass/components/extra.scss */
 .letter-spacing-3 {
   letter-spacing: 3px;
 }
 
-/* line 74, ../sass/components/extra.scss */
+/* line 104, ../sass/components/extra.scss */
 nav {
   box-shadow: none;
 }
 
-/* line 75, ../sass/components/extra.scss */
+/* line 105, ../sass/components/extra.scss */
 .box-sizing-0 {
   box-sizing: none !important;
 }
 
-/* line 78, ../sass/components/extra.scss */
+/* line 108, ../sass/components/extra.scss */
 .bg-project-1 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9924,7 +10067,7 @@ nav {
   color: #fff;
 }
 
-/* line 87, ../sass/components/extra.scss */
+/* line 117, ../sass/components/extra.scss */
 .bg-project-2 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9935,7 +10078,7 @@ nav {
   height: 300px;
 }
 
-/* line 95, ../sass/components/extra.scss */
+/* line 125, ../sass/components/extra.scss */
 .bg-project-3 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9946,7 +10089,7 @@ nav {
   height: 300px;
 }
 
-/* line 103, ../sass/components/extra.scss */
+/* line 133, ../sass/components/extra.scss */
 .bg-project-4 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -9957,13 +10100,13 @@ nav {
   height: 300px;
 }
 
-/* line 112, ../sass/components/extra.scss */
+/* line 142, ../sass/components/extra.scss */
 .hr-1 {
   border-top: 2px solid #9e9d24;
   margin: 15px 24px;
 }
 
-/* line 118, ../sass/components/extra.scss */
+/* line 148, ../sass/components/extra.scss */
 .title {
   top: 50vh;
   position: absolute;
@@ -9974,35 +10117,15 @@ nav {
   right: 0;
 }
 
-/* line 128, ../sass/components/extra.scss */
-.absolute-top-3 {
-  top: 3%;
-  position: absolute;
-  right: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+/*efecto texto*/
+/* line 160, ../sass/components/extra.scss */
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
 }
 
-/* line 138, ../sass/components/extra.scss */
-.absolute-top-30 {
-  top: 30%;
-  position: absolute;
-  right: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-
-/* line 147, ../sass/components/extra.scss */
-.absolute-top-70vh {
-  top: 70vh;
-  position: absolute;
-  right: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+/* line 166, ../sass/components/extra.scss */
+.dud {
+  color: #757575;
 }
