@@ -4,6 +4,10 @@
 		<title></title>
 <!--Fontawesome-->
 		 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+ <!--Fontas-->
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Playfair+Display:400i&display=swap');
+		</style>
 <!--Import materialize.css-->
 		<link type="text/css" rel="stylesheet" href="stylesheets/materialize.css"  media="screen,projection"/>
 <!--Let browser know website is optimized for mobile-->
@@ -14,20 +18,8 @@
 
 <body class="[ green ][ darken-6 ]">
 <!--Sección 1-->
-	<section class="[ words ]">
-		<div class="[ carousel ][ white-text ][ height-100vh ]">
-			<a class="carousel-item" href="#one!"><span>UNIQUE</span></a>
-			<a class="carousel-item" href="#two!"><span>CRAFTMANSHIP 
-			<a class="carousel-item" href="#three!"><span>ARTISTRY</span></a>
-			<a class="carousel-item" href="#four!"><span>CREATIVITY</span></a>
-			<a class="carousel-item" href="#five!">ORIGINALITY</span></a>
-			<span></a>
-			<a class="carousel-item" href="#five!">HANDCRAFTED LUXURY</span></a>
-			<a class="carousel-item" href="#five!">ARTE SEDENTARIO</span></a>
-		</div>
-	</section>
 	<div id="header" class="[ bg-image-1 ][ height-100vh ][ bg-image-fI ]"></div>
-	<div class="[ container ][ absolute-top-3 ][ none ][ menu ]">
+	<div class="[ container ][ absolute-top-3 ]">
 		<div class="[ row ]">
 			<nav>
 				<div class="nav-wrapper">
@@ -50,9 +42,15 @@
 		</div>
 	</div>
 	<div class="[ row ][ title ][ top-50vh ]">
-		<div class="[ col s12 ][ center-align ][ f-2em ][ letter-spacing-3 ]">
+		<div class="[ col s12 ][ center-align ][ f-2em ][ letter-spacing-3 ][ title-fade-in ][ none ]">
 			<span class="[ uppercase ][ yellow-text text-darken-5 ][ bold ][ margin-right-20px ]">Arte </span><span class="[ uppercase ][ yellow-text text-darken-5 ]">sedentario</span>
-			<span class="[ uppercase italic ][ f-5 ][ white-text ][ inherit ]">Handcrafted luxury</span> 
+			<span class="[ uppercase italic ][ f-5 ][ white-text ][ inherit ]">Handcrafted luxury</span>
+			
+		</div>
+		<div class="[ row ]">
+			<div class="[ col s12 ][ center-align ][ f-2em ][ letter-spacing-3 ][ title-fade-in ]">
+				<div class="[ text-intro "></div>
+			</div>
 		</div>
 	</div>
 	<div class="[ container ][ absolute-top-70vh ]">
@@ -78,10 +76,7 @@
 				<div class="[ col s12 m9 l9 ][ valign-wrapper ]">
 					<p class="[ white-text ][ flow-text ]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="container">
-					<div class="text"></div>
-				</div>
-				<div class="[ col m2 l2]"></div>
+				<div class="[ col m2 l2 ]"></div>
 			</div>
 		</div>
 	</section>
@@ -259,42 +254,23 @@
 	$(document).ready(function(){
 	$('.carousel-1').carousel();
 	});
-	$('.carousel').carousel();
-	setInterval(function() {
-	$('.carousel').carousel('next');
-	}, 150); // every 2 seconds
-      
-$(document).ready(function(){
-  $('.carousel').carousel(
-  {
-    dist: 0,
-    padding:0,
-    shift:-100,
-    numVisible:1,
-  }
-  );
-});
-$(document).ready(function() {
-    setTimeout(function() {
-		// Declaramos la capa mediante una clase para ocultarlo
-        $(".menu").fadeIn(500);
-    },4500);
-});
-$(document).ready(function() {
-    setTimeout(function() {
-		// Declaramos la capa mediante una clase para ocultarlo
-        $(".words").fadeOut(200);
-    },5000);
-});
+</script>
+<script>
+	$(document).ready(function() {
+	    setTimeout(function() {
+		$(".title-fade-in").fadeIn(500);
+		},8700);
+	});
+</script>
+<script>
+	$(document).ready(function() {
+	    setTimeout(function() {
+		$(".text-intro").fadeOut(500);
+		},8700);
+	});
+</script>
 
-$(document).ready(function() {
-    setTimeout(function() {
-		// Declaramos la capa mediante una clase para ocultarlo
-        $(".bg-image-fI").fadeIn(2000);
-    },5000);
-});
 
-	</script>
 <script>
 	// ——————————————————————————————————————————————————
 // TextScramble
@@ -303,7 +279,7 @@ $(document).ready(function() {
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = 'AZJKBFIOHLKNOUGHDOPJ'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -359,22 +335,23 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Neo,',
-  'sooner or later',
-  'you\'re going to realize',
-  'just as I did',
-  'that there\'s a difference',
-  'between knowing the path',
-  'and walking the path'
+  'UNIQUE',
+  'CRAFTMANSHIP',
+  'ARTISTRY',
+  'CREATIVITY',
+  'ORIGINALITY',
+  'HANDCRAFTED LUXURY',
+  'ARTE SEDENTARIO'
 ]
 
-const el = document.querySelector('.text')
+
+const el = document.querySelector('.text-intro')
 const fx = new TextScramble(el)
 
 let counter = 0
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800)
+    setTimeout(next, 250)
   })
   counter = (counter + 1) % phrases.length
 }
