@@ -228,18 +228,50 @@
 		</div>
 		<div class="[ white-text ][ center-align ][ margin-0-4em ][ padding-top-3 ][ padding-bottom-4 ]"><span class="">© 2019 Arte sedentario</span><span>-Todos los derechos reservados</span></div>
 	</footer>
+	<div class="carousel">
+		<a class="carousel-item" href="#one!"><span>UNIQUE</span></a>
+		<a class="carousel-item" href="#two!"><span>CRAFTMANSHIP, 
+		<a class="carousel-item" href="#three!"><span>ARTISTRY</span></a>
+		<a class="carousel-item" href="#four!"><span>CREATIVITY</span></a>
+		<a class="carousel-item" href="#five!">ORIGINALITY</span></a>
+<span></a>
+		<a class="carousel-item" href="#five!">HANDCRAFTED LUXURY</span></a>
+		<a class="carousel-item" href="#five!">ARTE SEDENTARIO</span></a>
+		</div>
 	<!--JavaScript-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bin/materialize.js"></script>
 
 	<script type="text/javascript">
-	 $('.carousel.carousel-slider').carousel({
+	$('.carousel.carousel-slider').carousel({
 	fullWidth: true
 	});
 
 	$(document).ready(function(){
 	$('.sidenav').sidenav();
 	});
+
+	$(document).ready(function(){
+	$('.carousel').carousel();
+	});
+	$('.carousel').carousel();
+	setInterval(function() {
+	$('.carousel').carousel('next');
+	}, 150); // every 2 seconds
+      
+$(document).ready(function(){
+  $('.carousel').carousel(
+  {
+    dist: 0,
+        padding:0,
+    shift:-100,
+
+   
+
+    numVisible:1,
+  }
+  );
+});
 
 	</script>
 
