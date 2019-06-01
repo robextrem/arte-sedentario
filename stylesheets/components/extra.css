@@ -250,58 +250,61 @@
 /* line 108, ../../sass/components/extra.scss */
 .vertical-center {
   position: absolute;
+  left: 50%;
   top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-/* line 116, ../../sass/components/extra.scss */
+/* line 119, ../../sass/components/extra.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 117, ../../sass/components/extra.scss */
+/* line 120, ../../sass/components/extra.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 118, ../../sass/components/extra.scss */
+/* line 121, ../../sass/components/extra.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 119, ../../sass/components/extra.scss */
+/* line 122, ../../sass/components/extra.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 120, ../../sass/components/extra.scss */
+/* line 123, ../../sass/components/extra.scss */
 .letter-spacing-3 {
   letter-spacing: 3px;
 }
 
-/* line 122, ../../sass/components/extra.scss */
+/* line 125, ../../sass/components/extra.scss */
 .montserrat {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 123, ../../sass/components/extra.scss */
+/* line 126, ../../sass/components/extra.scss */
 .playfair {
   font-family: 'Playfair Display', serif;
 }
 
-/* line 125, ../../sass/components/extra.scss */
+/* line 128, ../../sass/components/extra.scss */
 nav {
   box-shadow: none;
 }
 
-/* line 126, ../../sass/components/extra.scss */
+/* line 129, ../../sass/components/extra.scss */
 .box-sizing-0 {
   box-sizing: none !important;
 }
 
-/* line 129, ../../sass/components/extra.scss */
+/* line 132, ../../sass/components/extra.scss */
 .bg-project-1 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -313,7 +316,7 @@ nav {
   color: #fff;
 }
 
-/* line 138, ../../sass/components/extra.scss */
+/* line 141, ../../sass/components/extra.scss */
 .bg-project-2 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -324,7 +327,7 @@ nav {
   height: 300px;
 }
 
-/* line 146, ../../sass/components/extra.scss */
+/* line 149, ../../sass/components/extra.scss */
 .bg-project-3 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -335,7 +338,7 @@ nav {
   height: 300px;
 }
 
-/* line 154, ../../sass/components/extra.scss */
+/* line 157, ../../sass/components/extra.scss */
 .bg-project-4 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
@@ -346,13 +349,13 @@ nav {
   height: 300px;
 }
 
-/* line 163, ../../sass/components/extra.scss */
+/* line 166, ../../sass/components/extra.scss */
 .hr-1 {
   border-top: 2px solid #9e9d24;
   margin: 15px 24px;
 }
 
-/* line 169, ../../sass/components/extra.scss */
+/* line 172, ../../sass/components/extra.scss */
 .title {
   top: 50vh;
   position: absolute;
@@ -364,7 +367,7 @@ nav {
 }
 
 /*efecto texto*/
-/* line 181, ../../sass/components/extra.scss */
+/* line 184, ../../sass/components/extra.scss */
 .text-intro {
   font-size: 1.5em;
   color: #FAFAFA;
@@ -372,7 +375,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 187, ../../sass/components/extra.scss */
+/* line 190, ../../sass/components/extra.scss */
 .dud {
   color: #757575;
 }
