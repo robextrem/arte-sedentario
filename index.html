@@ -20,40 +20,40 @@
 <!--Sección 1-->
 	<div id="header" class="[ green ][ darken-6 ][ height-100vh ][ bg-image-fo ]"></div>
 	<div id="header" class="[ bg-image-1 ][ height-100vh ][ none ][ bg-image-fi ]"></div>
-	<div class="[ container ][ absolute-top-3 ]">
+	<div class="[ container ][ absolute-top-3 ][ fade-intro ][ none ]">
 		<div class="[ row ]">
 			<nav>
-				<div class="nav-wrapper">
-					<a href="#!" class="brand-logo">Logo</a>
-					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="sass.html">Sass</a></li>
-						<li><a href="badges.html">Components</a></li>
-						<li><a href="collapsible.html">Javascript</a></li>
-						<li><a href="mobile.html">Mobile</a></li>
+				<div class="[ nav-wrapper ]">
+					<a href="#!" class="[ brand-logo ]">Logo</a>
+					<a href="#" data-target="mobile-demo" class="[ sidenav-trigger ]"><i class="[ fas fa-bars ]"></i></a>
+					<ul class="[ right hide-on-med-and-down ]">
+						<li><a href="sass.html">Nosotros</a></li>
+						<li><a href="badges.html">Proceso</a></li>
+						<li><a href="collapsible.html">Galería</a></li>
+						<li><a href="mobile.html">Contacto</a></li>
 					</ul>
 				</div>
 			</nav>
-			<ul class="sidenav" id="mobile-demo">
-			<li><a href="sass.html">Sass</a></li>
-			<li><a href="badges.html">Components</a></li>
-			<li><a href="collapsible.html">Javascript</a></li>
-			<li><a href="mobile.html">Mobile</a></li>
+			<ul class="[ sidenav ]" id="mobile-demo">
+			<li><a href="sass.html">Nosotros</a></li>
+			<li><a href="badges.html">Proceso</a></li>
+			<li><a href="collapsible.html">Galería</a></li>
+			<li><a href="mobile.html">Contacto</a></li>
 			</ul>
 		</div>
 	</div>
-	<div class="[ row ][ title ][ top-50vh ]">
-		<div class="[ col s12 ][ center-align ][ f-2em ][ letter-spacing-3 ][ title-fade-in ][ none ]">
+	<div class="[ row ][ title ][ top-50vh ][ margin-0 ]">
+		<div class="[ col s12 ][ center-align ][ f-3em ][ letter-spacing-3 ][ title-fade-in ][ none ]">
 			<span class="[ uppercase ][ yellow-text text-darken-5 ][ bold ][ margin-right-20px ][ montserrat ]">Arte </span><span class="[ uppercase ][ yellow-text text-darken-5 ][ montserrat ]">sedentario</span>
 			<span class="[ uppercase italic ][ f-5 ][ white-text ][ inherit ][ playfair ]">Handcrafted luxury</span>
 		</div>
-		<div class="[ row ]">
+		<div class="[ row ][ margin-0 ]">
 			<div class="[ col s12 ][ center-align ][ f-3em ][ letter-spacing-3 ][ title-fade-in ][ absolute ]">
 				<div class="[ text-intro ]"></div>
 			</div>
 		</div>
 	</div>
-	<div class="[ container ][ absolute-top-70vh ]">
+	<div class="[ container ][ absolute-top-70vh ][ fade-intro ][ none ]">
 		<div class="[ row ]">
 			<div class="[ hide-on-small-and-down ][ col m1 l1 ][ text-vertical ][ white-text ][ padding-left-40 ]">
 				<a href="#text1"><i class="[ white-text ][ fas fa-caret-up ][ margin-bottom-3 ]"></i></a>
@@ -278,6 +278,13 @@
 	$(document).ready(function() {
 	    setTimeout(function() {
 		$(".bg-image-fi").fadeIn(200);
+		},8700);
+	});
+</script>
+<script>
+	$(document).ready(function() {
+	    setTimeout(function() {
+		$(".fade-intro").fadeIn(200);
 		},8700);
 	});
 </script>

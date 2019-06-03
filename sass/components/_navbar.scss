@@ -127,6 +127,8 @@ nav {
       display: block;
       padding: 0 15px;
       cursor: pointer;
+      font-family:'Montserrat', sans-serif;
+      text-transform: uppercase;
 
       &.btn, &.btn-large, &.btn-flat, &.btn-floating {
         margin-top: -2px;
