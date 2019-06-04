@@ -57,6 +57,7 @@ filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(1
 	right: 0;
 }
 .width-100{width: 100%;}
+.width-10em{width: 10em;}
 .height-100{height: 100px!important;}
 .height-100vh{height: 100vh;}
 .height-50vh{height: 50vh;}
@@ -207,7 +208,11 @@ nav{box-shadow: none;}
 	font-family: 'Playfair Display', serif;
 	text-transform: uppercase;}
   
-.dud{
+.dud{color: #757575;}
 
-  color: #757575;
+/* termina efecto texto*/
+.corner-img{
+	position: absolute;
+	width: 10em;
+	right:20px;
 }
