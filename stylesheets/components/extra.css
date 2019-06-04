@@ -324,10 +324,10 @@ nav {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 50vh;
   color: #fff;
 }
-
 /* line 142, ../../sass/components/extra.scss */
 .bg-project-1:hover {
   filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
@@ -335,37 +335,58 @@ nav {
   -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 }
 
-/* line 148, ../../sass/components/extra.scss */
+/* line 149, ../../sass/components/extra.scss */
 .bg-project-2 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+  background-position: center;
+}
+/* line 155, ../../sass/components/extra.scss */
+.bg-project-2:hover {
+  filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 }
 
-/* line 154, ../../sass/components/extra.scss */
+/* line 161, ../../sass/components/extra.scss */
 .bg-project-3 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+  background-position: center;
+}
+/* line 167, ../../sass/components/extra.scss */
+.bg-project-3:hover {
+  filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 }
 
-/* line 160, ../../sass/components/extra.scss */
+/* line 173, ../../sass/components/extra.scss */
 .bg-project-4 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+  background-position: center;
+}
+/* line 179, ../../sass/components/extra.scss */
+.bg-project-4:hover {
+  filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 }
 
-/* line 167, ../../sass/components/extra.scss */
+/* line 186, ../../sass/components/extra.scss */
 .hr-1 {
   border-top: 2px solid #9e9d24;
   margin: 15px 24px;
 }
 
-/* line 173, ../../sass/components/extra.scss */
+/* line 192, ../../sass/components/extra.scss */
 .title {
   top: 45vh;
   position: absolute;
@@ -377,7 +398,7 @@ nav {
 }
 
 /*efecto texto*/
-/* line 185, ../../sass/components/extra.scss */
+/* line 204, ../../sass/components/extra.scss */
 .text-intro {
   font-size: 1.5em;
   color: #FAFAFA;
@@ -385,7 +406,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 191, ../../sass/components/extra.scss */
+/* line 210, ../../sass/components/extra.scss */
 .dud {
   color: #757575;
 }

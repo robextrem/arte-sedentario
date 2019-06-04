@@ -136,32 +136,51 @@ nav{box-shadow: none;}
 	background-image: url("../img/img-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
  	height:50vh;
  	color:#fff;
+ 	&:hover{
+		filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+ 	 }
 }
-.bg-project-1:hover{
-	filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
-  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
-  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
 
-}
 .bg-project-2{
 	background-image: url("../img/img-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
  	height:50vh;
+ 	background-position: center;
+ 	&:hover{
+		filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+ 	 }
 }
 .bg-project-3{
 	background-image: url("../img/img-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
  	height:50vh;
+ 	background-position: center;
+ 	&:hover{
+		filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+ 	 }
 }
 .bg-project-4{
 	background-image: url("../img/img-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
  	height:50vh;
+ 	background-position: center;
+ 	&:hover{
+		filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+		-moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+ 	 }
 }
 
 .hr-1{
