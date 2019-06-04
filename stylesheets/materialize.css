@@ -10110,33 +10110,31 @@ nav {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  height: 300px;
+  height: 50vh;
   color: #fff;
 }
 
-/* line 144, ../sass/components/extra.scss */
+/* line 142, ../sass/components/extra.scss */
+.bg-project-1:hover {
+  filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -webkit-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+  -moz-filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(155%);
+}
+
+/* line 148, ../sass/components/extra.scss */
 .bg-project-2 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  height: 300px;
+  height: 50vh;
 }
 
-/* line 152, ../sass/components/extra.scss */
+/* line 154, ../sass/components/extra.scss */
 .bg-project-3 {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  height: 300px;
+  height: 50vh;
 }
 
 /* line 160, ../sass/components/extra.scss */
@@ -10144,19 +10142,16 @@ nav {
   background-image: url("../img/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  height: 300px;
+  height: 50vh;
 }
 
-/* line 169, ../sass/components/extra.scss */
+/* line 167, ../sass/components/extra.scss */
 .hr-1 {
   border-top: 2px solid #9e9d24;
   margin: 15px 24px;
 }
 
-/* line 175, ../sass/components/extra.scss */
+/* line 173, ../sass/components/extra.scss */
 .title {
   top: 45vh;
   position: absolute;
@@ -10168,7 +10163,7 @@ nav {
 }
 
 /*efecto texto*/
-/* line 187, ../sass/components/extra.scss */
+/* line 185, ../sass/components/extra.scss */
 .text-intro {
   font-size: 1.5em;
   color: #FAFAFA;
@@ -10176,7 +10171,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 193, ../sass/components/extra.scss */
+/* line 191, ../sass/components/extra.scss */
 .dud {
   color: #757575;
 }
