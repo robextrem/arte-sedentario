@@ -8259,28 +8259,30 @@ input[type=range]::-ms-thumb {
   will-change: transform;
   backface-visibility: hidden;
   transform: translateX(-105%);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
-/* line 22, ../sass/components/_sidenav.scss */
+/* line 23, ../sass/components/_sidenav.scss */
 .sidenav.right-aligned {
   right: 0;
   transform: translateX(105%);
   left: auto;
   transform: translateX(100%);
 }
-/* line 29, ../sass/components/_sidenav.scss */
+/* line 30, ../sass/components/_sidenav.scss */
 .sidenav .collapsible {
   margin: 0;
 }
-/* line 34, ../sass/components/_sidenav.scss */
+/* line 35, ../sass/components/_sidenav.scss */
 .sidenav li {
   float: none;
   line-height: 48px;
 }
-/* line 38, ../sass/components/_sidenav.scss */
+/* line 39, ../sass/components/_sidenav.scss */
 .sidenav li.active {
   background-color: rgba(0, 0, 0, 0.05);
 }
-/* line 41, ../sass/components/_sidenav.scss */
+/* line 42, ../sass/components/_sidenav.scss */
 .sidenav li > a {
   color: rgba(0, 0, 0, 0.87);
   display: block;
@@ -8290,31 +8292,31 @@ input[type=range]::-ms-thumb {
   line-height: 48px;
   padding: 0 32px;
 }
-/* line 50, ../sass/components/_sidenav.scss */
+/* line 51, ../sass/components/_sidenav.scss */
 .sidenav li > a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(201, 175, 116, 0.5);
 }
-/* line 52, ../sass/components/_sidenav.scss */
+/* line 53, ../sass/components/_sidenav.scss */
 .sidenav li > a.btn, .sidenav li > a.btn-large, .sidenav li > a.btn-small, .sidenav li > a.btn-large, .sidenav li > a.btn-flat, .sidenav li > a.btn-floating {
   margin: 10px 15px;
 }
-/* line 56, ../sass/components/_sidenav.scss */
+/* line 57, ../sass/components/_sidenav.scss */
 .sidenav li > a.btn, .sidenav li > a.btn-large, .sidenav li > a.btn-small, .sidenav li > a.btn-large, .sidenav li > a.btn-floating {
   color: #fff;
 }
-/* line 59, ../sass/components/_sidenav.scss */
+/* line 60, ../sass/components/_sidenav.scss */
 .sidenav li > a.btn-flat {
   color: #343434;
 }
-/* line 61, ../sass/components/_sidenav.scss */
+/* line 62, ../sass/components/_sidenav.scss */
 .sidenav li > a.btn:hover, .sidenav li > a.btn-large:hover, .sidenav li > a.btn-small:hover, .sidenav li > a.btn-large:hover {
   background-color: #2bbbad;
 }
-/* line 63, ../sass/components/_sidenav.scss */
+/* line 64, ../sass/components/_sidenav.scss */
 .sidenav li > a.btn-floating:hover {
   background-color: #26a69a;
 }
-/* line 65, ../sass/components/_sidenav.scss */
+/* line 66, ../sass/components/_sidenav.scss */
 .sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"], .sidenav li > a > i.material-icons {
   float: left;
   height: 48px;
@@ -8323,11 +8325,11 @@ input[type=range]::-ms-thumb {
   width: 24px;
   color: rgba(0, 0, 0, 0.54);
 }
-/* line 78, ../sass/components/_sidenav.scss */
+/* line 79, ../sass/components/_sidenav.scss */
 .sidenav .divider {
   margin: 8px 0 0 0;
 }
-/* line 82, ../sass/components/_sidenav.scss */
+/* line 83, ../sass/components/_sidenav.scss */
 .sidenav .subheader {
   cursor: initial;
   pointer-events: none;
@@ -8336,26 +8338,26 @@ input[type=range]::-ms-thumb {
   font-weight: 500;
   line-height: 48px;
 }
-/* line 83, ../sass/components/_sidenav.scss */
+/* line 84, ../sass/components/_sidenav.scss */
 .sidenav .subheader:hover {
   background-color: transparent;
 }
-/* line 95, ../sass/components/_sidenav.scss */
+/* line 96, ../sass/components/_sidenav.scss */
 .sidenav .user-view {
   position: relative;
   padding: 32px 32px 0;
   margin-bottom: 8px;
 }
-/* line 100, ../sass/components/_sidenav.scss */
+/* line 101, ../sass/components/_sidenav.scss */
 .sidenav .user-view > a {
   height: auto;
   padding: 0;
 }
-/* line 101, ../sass/components/_sidenav.scss */
+/* line 102, ../sass/components/_sidenav.scss */
 .sidenav .user-view > a:hover {
   background-color: transparent;
 }
-/* line 106, ../sass/components/_sidenav.scss */
+/* line 107, ../sass/components/_sidenav.scss */
 .sidenav .user-view .background {
   overflow: hidden;
   position: absolute;
@@ -8365,33 +8367,33 @@ input[type=range]::-ms-thumb {
   left: 0;
   z-index: -1;
 }
-/* line 116, ../sass/components/_sidenav.scss */
+/* line 117, ../sass/components/_sidenav.scss */
 .sidenav .user-view .circle, .sidenav .user-view .name, .sidenav .user-view .email {
   display: block;
 }
-/* line 120, ../sass/components/_sidenav.scss */
+/* line 121, ../sass/components/_sidenav.scss */
 .sidenav .user-view .circle {
   height: 64px;
   width: 64px;
 }
-/* line 125, ../sass/components/_sidenav.scss */
+/* line 126, ../sass/components/_sidenav.scss */
 .sidenav .user-view .name,
 .sidenav .user-view .email {
   font-size: 14px;
   line-height: 24px;
 }
-/* line 131, ../sass/components/_sidenav.scss */
+/* line 132, ../sass/components/_sidenav.scss */
 .sidenav .user-view .name {
   margin-top: 16px;
   font-weight: 500;
 }
-/* line 136, ../sass/components/_sidenav.scss */
+/* line 137, ../sass/components/_sidenav.scss */
 .sidenav .user-view .email {
   padding-bottom: 16px;
   font-weight: 400;
 }
 
-/* line 145, ../sass/components/_sidenav.scss */
+/* line 146, ../sass/components/_sidenav.scss */
 .drag-target {
   height: 100%;
   width: 10px;
@@ -8399,58 +8401,58 @@ input[type=range]::-ms-thumb {
   top: 0;
   z-index: 998;
 }
-/* line 147, ../sass/components/_sidenav.scss */
+/* line 148, ../sass/components/_sidenav.scss */
 .drag-target.right-aligned {
   right: 0;
 }
 
-/* line 160, ../sass/components/_sidenav.scss */
+/* line 161, ../sass/components/_sidenav.scss */
 .sidenav.sidenav-fixed {
   left: 0;
   transform: translateX(0);
   position: fixed;
 }
-/* line 162, ../sass/components/_sidenav.scss */
+/* line 163, ../sass/components/_sidenav.scss */
 .sidenav.sidenav-fixed.right-aligned {
   right: 0;
   left: auto;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 175, ../sass/components/_sidenav.scss */
+  /* line 176, ../sass/components/_sidenav.scss */
   .sidenav.sidenav-fixed {
     transform: translateX(-105%);
   }
-  /* line 178, ../sass/components/_sidenav.scss */
+  /* line 179, ../sass/components/_sidenav.scss */
   .sidenav.sidenav-fixed.right-aligned {
     transform: translateX(105%);
   }
-  /* line 183, ../sass/components/_sidenav.scss */
+  /* line 184, ../sass/components/_sidenav.scss */
   .sidenav > a {
     padding: 0 16px;
   }
-  /* line 187, ../sass/components/_sidenav.scss */
+  /* line 188, ../sass/components/_sidenav.scss */
   .sidenav .user-view {
     padding: 16px 16px 0;
   }
 }
-/* line 194, ../sass/components/_sidenav.scss */
+/* line 195, ../sass/components/_sidenav.scss */
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
   background-color: #ee6e73;
 }
-/* line 197, ../sass/components/_sidenav.scss */
+/* line 198, ../sass/components/_sidenav.scss */
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active a {
   color: #fff;
 }
 
-/* line 201, ../sass/components/_sidenav.scss */
+/* line 202, ../sass/components/_sidenav.scss */
 .sidenav .collapsible-body {
   padding: 0;
 }
 
-/* line 206, ../sass/components/_sidenav.scss */
+/* line 207, ../sass/components/_sidenav.scss */
 .sidenav-overlay {
   position: fixed;
   top: 0;
