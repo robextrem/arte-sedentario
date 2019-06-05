@@ -245,13 +245,14 @@ $panelcount: 5; // set # of panels/sections here
 .section {
   & {
     height: 100%;
-    width: calc( 100% / #{$panelcount} );
+    width: calc( 100%);
     float: left;
+
 
     // aesthetic only ----
     position: relative;
     
-    $colors: #F64747, #22A7F0, #F9690E, #9B59B6, #03C9A9;
+    $colors: #001D21, #001D21;
     @for $i from 1 through length($colors) {
       &:nth-child(#{$i}) {
         background: nth($colors, $i)
@@ -267,8 +268,11 @@ $panelcount: 5; // set # of panels/sections here
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    white-space: nowrap;
     
-    font-size: 30px;
+    font-size: 15em;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
   }
 }
