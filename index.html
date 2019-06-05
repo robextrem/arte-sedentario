@@ -13,8 +13,15 @@
 <!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- Compiled and minified JavaScript -->
+		<link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
 	</head>
+	
 
 <body class="">
 <!--Sección 1-->
@@ -80,8 +87,32 @@
 			<div class="[ row ]">
 				<img class="[ corner-img ]" src="img/AS-17.png" alt="">
 			</div>
-		</div>
 	</section >
+	<div class="wrapper" id="js-wrapper">
+	<div class="sections" id="js-slideContainer">
+		<section class="section">
+			
+			<span class="section__title" id="title1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+      <span id="trigger--title1"></span>
+		</section>
+		<section class="section">
+			<span class="section__title" id="title2">Section Two</span>
+      <span id="trigger--title2"></span>
+		</section>
+		<section class="section">
+			<span class="section__title" id="title3">Section Three</span>
+      <span id="trigger--title3"></span>
+		</section>
+		<section class="section">
+			<span class="section__title" id="title4">Section Four</span>
+      <span id="trigger--title4"></span>
+		</section>
+    <section class="section">
+			<span class="section__title" id="title5">Section Five</span>
+      <span id="trigger--title5"></span>
+		</section>
+	</div>
+</div>
 <!--Sección 3-->
 	<section id="galery" class="[ height-100vh ][ relative ]">
 		<div  class="[ container ][ vertical-center ]">
@@ -245,6 +276,12 @@
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="js/bin/materialize.js"></script>
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/animation.gsap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.min.js"></script>
+
 	<script type="text/javascript">
 	$('.carousel.carousel-slider').carousel({
 	fullWidth: true
@@ -293,6 +330,19 @@
 	});
 </script>
 
+<script>
+	// init controller
+	var controller = new ScrollMagic.Controller({vertical: false});
+
+	// build tween
+	var tween = TweenMax.to("#target", 0.5, {backgroundColor: "green", width: "+=400"});
+
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500})
+					.setTween(tween)
+					.addIndicators() // add indicators (requires plugin)
+					.addTo(controller);
+</script>
 <script>
 	// ——————————————————————————————————————————————————
 // TextScramble
@@ -379,6 +429,34 @@ const next = () => {
 }
 
 next()
+</script>
+<script>
+	$(function () { // wait for document ready
+  
+  var controller = new ScrollMagic.Controller();
+
+  var horizontalSlide = new TimelineMax()
+  // animate panels
+  .to("#js-slideContainer", 1,   {x: "-20%"})	
+  .to("#js-slideContainer", 1,   {x: "-40%"})
+  .to("#js-slideContainer", 1,   {x: "-60%"})
+  .to("#js-slideContainer", 1,   {x: "-80%"})
+
+
+  // create scene to pin and link animation
+  new ScrollMagic.Scene({
+    triggerElement: "#js-wrapper",
+    triggerHook: "onLeave",
+    duration: "400%"
+  })
+    .setPin("#js-wrapper")
+    .setTween(horizontalSlide)
+    //.addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+  
+  
+  
+});
 </script>
 </body>
 </html>
