@@ -21,6 +21,12 @@ filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(1
 .fixed{position: fixed;}
 .static{position: static;}
 
+.absolute-0{
+	position: absolute;
+	bottom:0;
+	transform: translate(-50%, -0%);
+    left: 50%;
+}
 .absolute-top-3{
 	top: 3%;
 	position: absolute;
@@ -122,6 +128,16 @@ filter: sepia(100%) brightness(45%) hue-rotate(127deg) saturate(106%) contrast(1
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+.bottom-center{
+    position: absolute;
+	left: 50%;
+	bottom: 1%;
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -20%);
 }
 
 .uppercase{text-transform: uppercase;}
