@@ -224,6 +224,14 @@ nav{box-shadow: none;}
 // ---------- GENERAL STYLES ---------- //
 
 
+* {
+  box-sizing: border-box;
+}
+
+body, 
+html {
+	height: 100%
+}
 
 
 // ---------- SCROLLING STYLES ---------- //
