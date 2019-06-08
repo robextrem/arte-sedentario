@@ -232,9 +232,10 @@ nav{box-shadow: none;}
 
 /* termina efecto texto*/
 .corner-img{
-	position: absolute;
-	width: 10em;
-	right:20px;
+	    position: absolute;
+    width: 7em;
+    right: -100px;
+    bottom: 40px;
 }
 /*scrolling*/
 // ---------- GENERAL STYLES ---------- //
@@ -295,3 +296,6 @@ $panelcount: 5; // set # of panels/sections here
     color: #fff;
   }
 }
+
+
+

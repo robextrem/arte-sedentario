@@ -10,16 +10,17 @@
 		</style>
 <!--Import materialize.css-->
 		<link type="text/css" rel="stylesheet" href="stylesheets/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- Compiled and minified JavaScript -->
 		<link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>	
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<link rel="stylesheet" href="flickity-docs/css/flickity-docs.css" media="screen">
+<script src="flickity-docs/js/flickity-docs.min.js"></script>
 	</head>
 	
 
@@ -42,10 +43,10 @@
 				</div>
 			</nav>
 			<ul class="[ sidenav ]" id="mobile-demo">
-			<li><a href="sass.html">Nosotros</a></li>
-			<li><a href="badges.html">Proceso</a></li>
-			<li><a href="collapsible.html">Galería</a></li>
-			<li><a href="mobile.html">Contacto</a></li>
+				<li><a href="sass.html">Nosotros</a></li>
+				<li><a href="badges.html">Proceso</a></li>
+				<li><a href="collapsible.html">Galería</a></li>
+				<li><a href="mobile.html">Contacto</a></li>
 			</ul>
 		</div>
 	</div>
@@ -87,6 +88,7 @@
 			<div class="[ row ]">
 				<img class="[ corner-img ]" src="img/AS-17.png" alt="">
 			</div>
+		</div>
 	</section >
 <!--Sección 3-->
 	<section id="galery" class="[ height-100vh ][ relative ]">
@@ -103,7 +105,6 @@
 					<a class="[ carousel-item ]" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
 					<a class="[ carousel-item ]" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
 				</div>
-
 			</div>
 			<div class="[ col m1 l1 ][ hide-on-small-and-down ]"></div>
 		</div>
@@ -121,11 +122,12 @@
 			</section>
 		</div>
 	</div>
+<!--navegación
 	<div class="[ hide-on-small-and-down ][ hide-on-small-only ][ col m1 l1 ][ text-vertical ][ white-text ][ padding-left-40 ]">
-					<a href="#projects"><i class="[ white-text ][ fas fa-caret-up ][ margin-bottom-3 ]"></i></a>
-					<span class="[ montserrat ]">04____07</span>
-					<a href="#galery"><i class="[ fas fa-caret-down ][ white-text ][ margin-top-3 ]"></i></a>
-				</div>
+		<a href="#projects"><i class="[ white-text ][ fas fa-caret-up ][ margin-bottom-3 ]"></i></a>
+		<span class="[ montserrat ]">04____07</span>
+		<a href="#galery"><i class="[ fas fa-caret-down ][ white-text ][ margin-top-3 ]"></i></a>
+	</div>-->
 
 	
 <!--Sección 4 sin scroll
@@ -287,180 +289,176 @@
 	
 
 	<script type="text/javascript">
-	$('.carousel.carousel-slider').carousel({
-	fullWidth: true
-	});
+		$('.carousel.carousel-slider').carousel({
+		fullWidth: true
+		});
 
-	$(document).ready(function(){
-	$('.sidenav').sidenav();
-	});
+		$(document).ready(function(){
+		$('.sidenav').sidenav();
+		});
 
-	$(document).ready(function(){
-	$('.carousel-1').carousel();
-	indicators: true
-	});
-</script>
-<script>
-	$(document).ready(function() {
-	    setTimeout(function() {
-		$(".title-fade-in").fadeIn(500);
-		},9000);
-	});
-</script>
-<script>
-	$(document).ready(function() {
-	    setTimeout(function() {
-		$(".text-intro").fadeOut(500);
-		},8700);
-	});
-</script>
-<script>
-	$(document).ready(function() {
-	    setTimeout(function() {
-		$(".bg-image-fo").fadeOut(500);
-		},8701);
-	});
-	$(document).ready(function() {
-	    setTimeout(function() {
-		$(".bg-image-fi").fadeIn(200);
-		},8700);
-	});
-</script>
-<script>
-	$(document).ready(function() {
-	    setTimeout(function() {
-		$(".fade-intro").fadeIn(200);
-		},8700);
-	});
-</script>
+		$(document).ready(function(){
+		$('.carousel-1').carousel();
+		indicators: true
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+		    setTimeout(function() {
+			$(".title-fade-in").fadeIn(500);
+			},9000);
+		});
 
-<script>
-	// init controller
-	var controller = new ScrollMagic.Controller({vertical: false});
+		$(document).ready(function() {
+		    setTimeout(function() {
+			$(".text-intro").fadeOut(500);
+			},8700);
+		});
 
-	// build tween
-	var tween = TweenMax.to("#target", 0.5, {backgroundColor: "green", width: "+=400"});
+		$(document).ready(function() {
+		    setTimeout(function() {
+			$(".bg-image-fo").fadeOut(500);
+			},8701);
+		});
+		$(document).ready(function() {
+		    setTimeout(function() {
+			$(".bg-image-fi").fadeIn(200);
+			},8700);
+		});
 
-	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500})
-					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
-</script>
-<script>
+		$(document).ready(function() {
+		    setTimeout(function() {
+			$(".fade-intro").fadeIn(200);
+			},8700);
+		});
+	</script>
+	<script>
+		// init controller
+		var controller = new ScrollMagic.Controller({vertical: false});
+
+		// build tween
+		var tween = TweenMax.to("#target", 0.5, {backgroundColor: "green", width: "+=400"});
+
+		// build scene
+		var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500})
+						.setTween(tween)
+						.addIndicators() // add indicators (requires plugin)
+						.addTo(controller);
+	</script>
+	<script>
+		// ——————————————————————————————————————————————————
+	// TextScramble
 	// ——————————————————————————————————————————————————
-// TextScramble
-// ——————————————————————————————————————————————————
 
-class TextScramble {
-  constructor(el) {
-    this.el = el
-    this.chars = 'AZJKBFIOHLKNOUGHDOPJ'
-    this.update = this.update.bind(this)
-  }
-  setText(newText) {
-    const oldText = this.el.innerText
-    const length = Math.max(oldText.length, newText.length)
-    const promise = new Promise((resolve) => this.resolve = resolve)
-    this.queue = []
-    for (let i = 0; i < length; i++) {
-      const from = oldText[i] || ''
-      const to = newText[i] || ''
-      const start = Math.floor(Math.random() * 40)
-      const end = start + Math.floor(Math.random() * 40)
-      this.queue.push({ from, to, start, end })
-    }
-    cancelAnimationFrame(this.frameRequest)
-    this.frame = 0
-    this.update()
-    return promise
-  }
-  update() {
-    let output = ''
-    let complete = 0
-    for (let i = 0, n = this.queue.length; i < n; i++) {
-      let { from, to, start, end, char } = this.queue[i]
-      if (this.frame >= end) {
-        complete++
-        output += to
-      } else if (this.frame >= start) {
-        if (!char || Math.random() < 0.28) {
-          char = this.randomChar()
-          this.queue[i].char = char
-        }
-        output += `<span class="dud">${char}</span>`
-      } else {
-        output += from
-      }
-    }
-    this.el.innerHTML = output
-    if (complete === this.queue.length) {
-      this.resolve()
-    } else {
-      this.frameRequest = requestAnimationFrame(this.update)
-      this.frame++
-    }
-  }
-  randomChar() {
-    return this.chars[Math.floor(Math.random() * this.chars.length)]
-  }
-}
+	class TextScramble {
+	  constructor(el) {
+	    this.el = el
+	    this.chars = 'AZJKBFIOHLKNOUGHDOPJ'
+	    this.update = this.update.bind(this)
+	  }
+	  setText(newText) {
+	    const oldText = this.el.innerText
+	    const length = Math.max(oldText.length, newText.length)
+	    const promise = new Promise((resolve) => this.resolve = resolve)
+	    this.queue = []
+	    for (let i = 0; i < length; i++) {
+	      const from = oldText[i] || ''
+	      const to = newText[i] || ''
+	      const start = Math.floor(Math.random() * 40)
+	      const end = start + Math.floor(Math.random() * 40)
+	      this.queue.push({ from, to, start, end })
+	    }
+	    cancelAnimationFrame(this.frameRequest)
+	    this.frame = 0
+	    this.update()
+	    return promise
+	  }
+	  update() {
+	    let output = ''
+	    let complete = 0
+	    for (let i = 0, n = this.queue.length; i < n; i++) {
+	      let { from, to, start, end, char } = this.queue[i]
+	      if (this.frame >= end) {
+	        complete++
+	        output += to
+	      } else if (this.frame >= start) {
+	        if (!char || Math.random() < 0.28) {
+	          char = this.randomChar()
+	          this.queue[i].char = char
+	        }
+	        output += `<span class="dud">${char}</span>`
+	      } else {
+	        output += from
+	      }
+	    }
+	    this.el.innerHTML = output
+	    if (complete === this.queue.length) {
+	      this.resolve()
+	    } else {
+	      this.frameRequest = requestAnimationFrame(this.update)
+	      this.frame++
+	    }
+	  }
+	  randomChar() {
+	    return this.chars[Math.floor(Math.random() * this.chars.length)]
+	  }
+	}
 
-// ——————————————————————————————————————————————————
-// Example
-// ——————————————————————————————————————————————————
+	// ——————————————————————————————————————————————————
+	// Example
+	// ——————————————————————————————————————————————————
 
-const phrases = [
-  'UNIQUE',
-  'CRAFTMANSHIP',
-  'ARTISTRY',
-  'CREATIVITY',
-  'ORIGINALITY',
-  'HANDCRAFTED LUXURY',
-  'ARTE SEDENTARIO'
-]
+	const phrases = [
+	  'UNIQUE',
+	  'CRAFTMANSHIP',
+	  'ARTISTRY',
+	  'CREATIVITY',
+	  'ORIGINALITY',
+	  'HANDCRAFTED LUXURY',
+	  'ARTE SEDENTARIO'
+	]
 
 
-const el = document.querySelector('.text-intro')
-const fx = new TextScramble(el)
+	const el = document.querySelector('.text-intro')
+	const fx = new TextScramble(el)
 
-let counter = 0
-const next = () => {
-  fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 250)
-  })
-  counter = (counter + 1) % phrases.length
-}
+	let counter = 0
+	const next = () => {
+	  fx.setText(phrases[counter]).then(() => {
+	    setTimeout(next, 250)
+	  })
+	  counter = (counter + 1) % phrases.length
+	}
 
-next()
-</script>
-<script>
-	$(function () { // wait for document ready
-  
-  var controller = new ScrollMagic.Controller();
+	next()
+	</script>
+	<script>
+		$(function () { // wait for document ready
+	  
+	  var controller = new ScrollMagic.Controller();
 
-  var horizontalSlide = new TimelineMax()
-  // animate panels
-  .to("#js-slideContainer", 1,   {x: "-20%"})	
-  .to("#js-slideContainer", 1,   {x: "-40%"})
-  .to("#js-slideContainer", 1,   {x: "-60%"})
-  .to("#js-slideContainer", 1,   {x: "-80%"})
+	  var horizontalSlide = new TimelineMax()
+	  // animate panels
+	  .to("#js-slideContainer", 1,   {x: "-20%"})	
+	  .to("#js-slideContainer", 1,   {x: "-40%"})
+	  .to("#js-slideContainer", 1,   {x: "-60%"})
+	  .to("#js-slideContainer", 1,   {x: "-80%"})
 
 
-  // create scene to pin and link animation
-  new ScrollMagic.Scene({
-    triggerElement: "#js-wrapper",
-    triggerHook: "onLeave",
-    duration: "400%"
-  })
-    .setPin("#js-wrapper")
-    .setTween(horizontalSlide)
-    //.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-  
-  
-  
-});
-</script>
+	  // create scene to pin and link animation
+	  new ScrollMagic.Scene({
+	    triggerElement: "#js-wrapper",
+	    triggerHook: "onLeave",
+	    duration: "400%"
+	  })
+	    .setPin("#js-wrapper")
+	    .setTween(horizontalSlide)
+	    //.addIndicators() // add indicators (requires plugin)
+	    .addTo(controller);
+	  
+	  
+	  
+	});
+	</script>
 </body>
 </html>

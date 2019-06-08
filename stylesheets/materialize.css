@@ -10253,23 +10253,24 @@ nav {
 /* line 234, ../sass/components/extra.scss */
 .corner-img {
   position: absolute;
-  width: 10em;
-  right: 20px;
+  width: 7em;
+  right: -100px;
+  bottom: 40px;
 }
 
 /*scrolling*/
-/* line 243, ../sass/components/extra.scss */
+/* line 244, ../sass/components/extra.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 247, ../sass/components/extra.scss */
+/* line 248, ../sass/components/extra.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 257, ../sass/components/extra.scss */
+/* line 258, ../sass/components/extra.scss */
 .wrapper {
   width: 100%;
   height: 100%;
@@ -10277,27 +10278,27 @@ html {
   perspective: 1000;
 }
 
-/* line 265, ../sass/components/extra.scss */
+/* line 266, ../sass/components/extra.scss */
 .section {
   height: 100%;
   width: calc( 100%);
   float: left;
   position: relative;
 }
-/* line 276, ../sass/components/extra.scss */
+/* line 277, ../sass/components/extra.scss */
 .section:nth-child(1) {
   background: #001D21;
 }
-/* line 276, ../sass/components/extra.scss */
+/* line 277, ../sass/components/extra.scss */
 .section:nth-child(2) {
   background: #001D21;
 }
-/* line 281, ../sass/components/extra.scss */
+/* line 282, ../sass/components/extra.scss */
 .sections {
   width: 500%;
   height: 100%;
 }
-/* line 285, ../sass/components/extra.scss */
+/* line 286, ../sass/components/extra.scss */
 .section__title {
   position: absolute;
   top: 50%;
