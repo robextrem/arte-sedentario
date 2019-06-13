@@ -10310,3 +10310,35 @@ html {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
+
+/* line 302, ../sass/components/extra.scss */
+.img-carousel-1 {
+  background-image: url("../img/img-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 308, ../sass/components/extra.scss */
+.img-carousel-2 {
+  background-image: url("../img/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 314, ../sass/components/extra.scss */
+.img-carousel-3 {
+  background-image: url("../img/img-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 320, ../sass/components/extra.scss */
+.img-carousel-4 {
+  background-image: url("../img/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
