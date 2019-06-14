@@ -73,7 +73,7 @@
 	</div>
 	
 <!--Sección 2-->
-	<section id="text1" class="[ grey darken-5 ][ height-100vh ][ relative ][ none ][ bg-image-fi ]">
+	<section id="text1" class="[ grey darken-5 ][ height-100vh ][ relative ]">
 		<div class="[ container ][ vertical-center ]">
 			<div class="[ row ]">
 				<div class="[ hide-on-small-and-down ][ col s1 m1 l1 ][ text-vertical ][ white-text ][ padding-left-40 ]">
@@ -92,7 +92,7 @@
 			</div>
 	</section >
 <!--Sección 3-->
-	<section id="galery" class="[ height-100vh ][ relative ][ none ][ bg-image-fi ]">
+	<section id="galery" class="[ height-100vh ][ relative ]">
 		<div  class="[ container ][ vertical-center ]">
 			<div class="[ row ][ margin-0 ]">
 				<div class="[ hide-on-small-and-down ][ col m1 l1 ][ text-vertical ][ grey-text text-darken-5 ][ padding-left-40 ]">
@@ -112,7 +112,7 @@
 	</section>
 <!--Sección 4-->
 	<div class="[ wrapper ]" id="js-wrapper">
-		<div class="[ sections ][ none ][ bg-image-fi ]" id="js-slideContainer">
+		<div class="[ sections ]" id="js-slideContainer">
 			<section class="[ section ]">
 				<span class="[ section__title ]" id="title1">Lorem ipsum dolor sit ame dolor sit dolor sit </span>
 				<span id="trigger--title1"></span>
@@ -148,7 +148,7 @@
 	</section>
 -->
 <!--Sección 5-->
-	<section class="[ height-100vh ][ none ][ bg-image-fi ]">
+	<section class="[ height-100vh ]">
 		<div id="projects" class="[ row ][ margin-0 ]">
 			<div class="[ col s12 m6 l3 ][ padding-0 ][ height-50vh ]">
 				<div class="[ card ][ margin-0 ]">
@@ -219,9 +219,9 @@
 		</div>
 	</section>
 <!--Sección 6-->
-	<section class="[ bg-image-2 ][ height-100vh ][ none ][ bg-image-fi ]"></section>
+	<section class="[ bg-image-2 ][ height-100vh ]"></section>
 <!--Sección 7-->
-	<footer id="footer" class="[ grey darken-5 ][ relative ][ height-100vh ][ none ][ bg-image-fi ]">
+	<footer id="footer" class="[ grey darken-5 ][ relative ][ height-100vh ]">
 		<div class="[ container ][ vertical-center ]">
 			<div class="[ row ]">
 				<div class="[ hide-on-small-and-down ][ col s1 m1 l1 ][ text-vertical ][ white-text ][ padding-left-30 ]">
@@ -455,10 +455,21 @@
 	    .setTween(horizontalSlide)
 	    //.addIndicators() // add indicators (requires plugin)
 	    .addTo(controller);
-	  
-	  
-	  
 	});
+
+	</script>
+	<script>
+		var sctollTop_length = 0;
+
+function scroll_pause(){
+  sctollTop_length = $(window).scrollTop();
+  $("body").css("overflow", "hidden");
+}
+
+function scroll_resume(){
+  $("body").css("overflow", "auto");
+  $(window).scrollTop(sctollTop_length);
+}
 	</script>
 </body>
 </html>
