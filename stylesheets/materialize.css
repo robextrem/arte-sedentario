@@ -10252,10 +10252,10 @@ nav {
 /* termina efecto texto*/
 /* line 234, ../sass/components/extra.scss */
 .corner-img {
-  width: 150px;
   position: absolute;
-  right: -150px;
-  bottom: -30em;
+  width: 10%;
+  bottom: 5%;
+  right: 5%;
 }
 
 /*scrolling*/
