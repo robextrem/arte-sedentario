@@ -226,8 +226,11 @@ nav{box-shadow: none;}
 .text-intro{
 	font-size:1.5em;
 	color:#FAFAFA;
-	font-family: 'Playfair Display', serif;
-	text-transform: uppercase;}
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
   
 .dud{color: #757575;}
 
@@ -295,7 +298,7 @@ $panelcount: 5; // set # of panels/sections here
     white-space: nowrap;
     
     font-size: 15em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     color: #fff;
   }
 }
